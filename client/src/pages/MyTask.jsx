@@ -11,7 +11,7 @@ const MyTask = () => {
   const itemsPerPage = 3;
 
   const loadData = async () => {
-    let api = `http://localhost:8080/client/mytask/?id=${localStorage.getItem("userid")}`;
+    let api = `https://task-management-aavb.onrender.com/client/mytask/?id=${localStorage.getItem("userid")}`;
     try {
       const response = await axios.get(api);
       setMydata(response.data);
@@ -21,7 +21,7 @@ const MyTask = () => {
   };
 
   const submitTask = async (id) => {
-    let api = `https://task-management-aavb.onrender.com/completetask/?id=${id}`;
+    let api = `https://task-management-aavb.onrender.com/client/completetask/?id=${id}`;
     try {
       await axios.get(api);
     } catch (error) {
