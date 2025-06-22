@@ -21,7 +21,7 @@ const MyTask = () => {
   };
 
   const submitTask = async (id) => {
-    let api = `http://localhost:8080/client/completetask/?id=${id}`;
+    let api = `https://task-management-aavb.onrender.com/completetask/?id=${id}`;
     try {
       await axios.get(api);
     } catch (error) {
