@@ -21,7 +21,7 @@ const [repassword,setRepassword] = useState("")
 
     try {
 
-      let api = "http://localhost:8080/client/passreset";
+      let api = "https://task-management-aavb.onrender.com/passreset";
 
     let response = await axios.post(api, {userid:id, oldpassword:oldpassword, newpassword:newpassword,repassword:repassword})
     
