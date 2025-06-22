@@ -3,6 +3,7 @@ import '../CSS/footer.css'; // Import CSS file
 
 const Footer = () => {
   return (
+    <>
     <footer className="footer">
       <div className="footer-container">
         {/* Column 1 */}
@@ -52,6 +53,7 @@ const Footer = () => {
         © {new Date().getFullYear()} TaskFlow. All rights reserved.
       </div>
     </footer>
+    </>
   );
 };
 
