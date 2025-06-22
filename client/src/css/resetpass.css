@@ -1,0 +1,76 @@
+/* Reset Password Dark Theme */
+
+.pass-reset {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background-color: #0B0C10;
+  border: 1px solid #45A29E;
+  /* box-shadow: 0 0 15px rgba(69, 162, 158, 0.2); */
+  border-radius: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #C5C6C7;
+}
+
+.resetpass-head {
+  text-align: center;
+  font-size: 26px;
+  color: #66FCF1;
+  margin-bottom: 30px;
+}
+
+.pass-reset h1 {
+  font-size: 16px;
+  color: #66FCF1;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.pass-reset input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  background-color: #1F2833;
+  color: #ffffff;
+  border: 1px solid #45A29E;
+  border-radius: 10px;
+  margin-top: 8px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.pass-reset input::placeholder {
+  color: #AAAAAA;
+}
+
+.pass-reset input:focus {
+  border-color: #66FCF1;
+  background-color: #0B0C10;
+  outline: none;
+}
+
+/* Submit Button */
+.pass-reset button {
+  width: 100%;
+  padding: 12px;
+  background-color: #45A29E;
+  color: #0B0C10;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pass-reset button:hover {
+  background-color: #66FCF1;
+  transform: scale(1.02);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .pass-reset {
+    padding: 20px 15px;
+  }
+}

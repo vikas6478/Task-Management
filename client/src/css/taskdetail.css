@@ -1,0 +1,109 @@
+body {
+  background-color: #1F2833;
+  color: #E0E0E0;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  color: #66FCF1;
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+/* Task Cards */
+.card {
+  background-color: #12181F !important;
+  color: #E0E0E0;
+  border-left: 4px solid #45A29E;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(69, 162, 158, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(69, 162, 158, 0.2);
+}
+
+/* Card Content Layout */
+.card-body p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #D0D0D0;
+}
+
+.card-body strong {
+  color: #66FCF1;
+}
+
+/* Reassign Button */
+.reassign {
+  background-color: transparent !important;
+  color: #45A29E !important;
+  border: 1px solid #45A29E !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.reassign:hover {
+  background-color: #45A29E !important;
+  color: #0B0C10 !important;
+}
+
+/* Pending Button */
+.pending {
+  background-color: transparent !important;
+  color: #B0B0B0 !important;
+  border: 1px dashed #999 !important;
+  cursor: not-allowed;
+}
+
+/* Status Icons */
+.card-body svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+  background-color: #0B0C10;
+  color: #C5C6C7;
+  border: 1px solid #45A29E;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #45A29E;
+  color: #0B0C10;
+  border-color: #45A29E;
+}
+
+.pagination .page-link:hover {
+  background-color: #2b3a42;
+  color: #66FCF1;
+}
+
+.deletekey{
+  color: rgb(204, 15, 1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .reassign,
+  .pending {
+    width: 100%;
+    margin-top: 10px;
+  }
+   .deletekey {
+    margin-left: auto;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    width: 100%;
+  }
+}

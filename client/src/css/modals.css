@@ -1,0 +1,53 @@
+/* modals.css */
+.dark-modal .modal-content {
+  background-color: #1F2833 !important;
+  color: #C5C6C7 !important;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 20px rgba(69, 162, 158, 0.3);
+}
+
+.dark-modal .modal-header {
+  border-bottom: 1px solid #45A29E;
+}
+
+.dark-modal .modal-title {
+  color: #66FCF1;
+}
+
+.dark-modal .modal-body .form-label {
+  color: #66FCF1;
+  font-weight: bold;
+}
+
+.dark-modal .form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #45A29E;
+  border-radius: 0;
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: none;
+  outline: none;
+  caret-color: #66FCF1;
+}
+
+.dark-modal .form-control:focus {
+  border-bottom: 2px solid #66FCF1;
+}
+
+.dark-modal .form-control::placeholder {
+  color: #C5C6C7;
+}
+
+.dark-modal .btn-primary {
+  background-color: #45A29E;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+}
+
+.dark-modal .btn-primary:hover {
+  background-color: #66FCF1;
+  color: #0B0C10;
+}

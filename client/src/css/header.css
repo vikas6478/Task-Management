@@ -1,0 +1,26 @@
+/* Navbar Custom Styling */
+.navbar {
+  background-color: #0B0C10 !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+  color: #66FCF1 !important;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #C5C6C7 !important;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #66FCF1 !important;
+}
+
+.navbar .fa-user-circle {
+  color: #66FCF1;
+  cursor: pointer;
+}

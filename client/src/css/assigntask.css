@@ -1,0 +1,107 @@
+/* assignTask.css */
+
+.assign-task-container {
+  padding: 30px 20px;
+  background-color: #1F2833;
+  color: #C5C6C7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.assign-task-container h2 {
+  color: #66FCF1;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table Styling */
+.assign-task-table {
+  background-color: #0B0C10;
+  color: white;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.assign-task-table th,
+.assign-task-table td {
+  vertical-align: middle;
+  text-align: center;
+  color: #C5C6C7;
+}
+
+.assign-task-table th {
+  background-color: #1F2833;
+  color: #66FCF1;
+}
+
+.assign-task-table td {
+  background-color: #1F2833;
+}
+
+.assign-task-table tr:hover {
+  background-color: #2c3e50;
+}
+
+/* Modal Styling */
+.dark-modal .modal-content {
+  background-color: #1F2833;
+  color: #C5C6C7;
+  border-radius: 10px;
+  border: none;
+}
+
+.dark-modal .modal-header {
+  border-bottom: 1px solid #45A29E;
+}
+
+.dark-modal .modal-title {
+  color: #66FCF1;
+}
+
+.dark-modal .form-label {
+  color: #66FCF1;
+}
+
+.dark-modal .form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #45A29E;
+  border-radius: 0;
+  color: white;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 20px;
+  caret-color: #66FCF1;
+  transition: border-color 0.3s;
+}
+
+.dark-modal .form-control:focus {
+  border-bottom: 2px solid #66FCF1;
+}
+
+.dark-modal .btn-primary {
+  background-color: #45A29E;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+}
+
+.dark-modal .btn-primary:hover {
+  background-color: #66FCF1;
+  color: #0B0C10;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .assign-task-container {
+    padding: 20px 10px;
+  }
+
+  .assign-task-table {
+    font-size: 14px;
+  }
+
+  .dark-modal .modal-content {
+    padding: 10px;
+  }
+}

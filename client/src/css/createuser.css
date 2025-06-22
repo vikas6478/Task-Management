@@ -1,0 +1,107 @@
+/* Page Wrapper */
+.createuser-page {
+  min-height: 100vh;
+  background-color: #1F2833;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Form Box */
+.createuser-box {
+  width: 100%;
+  max-width: 420px;
+  background-color: #0B0C10;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(45, 85, 85, 0.2);
+  color: #C5C6C7;
+}
+
+/* Heading */
+.createuser-box h2 {
+  text-align: center;
+  color: #45A29E;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Labels */
+.createuser-box .form-label {
+  color: #45A29E;
+  font-weight: 500;
+}
+
+/* Input Fields */
+.createuser-box .form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #3d6060;
+  border-radius: 0;
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: none !important;
+  outline: none !important;
+  caret-color: #45A29E;
+  transition: border-color 0.3s ease;
+}
+
+.createuser-box .form-control:focus {
+  border-bottom: 2px solid #4fb6b6;
+  background-color: transparent;
+  color: white;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Placeholder */
+.createuser-box .form-control::placeholder {
+  color: #AAAAAA;
+}
+
+/* Select Box Styling */
+.createuser-box .form-select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #3d6060;
+  /* border-radius: 0; */
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: none !important;
+  outline: none !important;
+  appearance: none;
+}
+
+.createuser-box .form-select:focus {
+  border-bottom: 2px solid #4fb6b6;
+  background-color: transparent;
+  color: white;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Select Options */
+.createuser-box .form-select option {
+  background-color: #242930;
+  color: #C5C6C7;
+}
+
+/* Submit Button */
+.createuser-box .btn-primary {
+  width: 100%;
+  background-color: #3a7575;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.createuser-box .btn-primary:hover {
+  background-color: #4fb6b6;
+  color: #0B0C10;
+}

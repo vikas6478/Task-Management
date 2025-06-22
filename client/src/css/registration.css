@@ -1,0 +1,80 @@
+.registration-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left Box */
+.left-box {
+  flex: 1;
+  /* background-color: darkslateblue; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 70px;
+  border-radius: 10px;
+}
+
+.left-box h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.left-box p {
+  font-size: 18px;
+}
+
+/* Right Form Area */
+.right-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.form-box {
+  width: 80%;
+  max-width: 450px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.form-box input {
+  margin-bottom: 10px;
+}
+
+/* Register Button */
+.form-box button {
+  width: 100%;
+  /* background-color: darkslateblue; */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.form-box button:hover {
+  /* background-color: #4b3ba0; */
+  transform: scale(1.02);
+}
+
+/* Login Redirect */
+.log {
+  /* color: darkslateblue; */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.log:hover {
+  /* color: #3c2f86; */
+}

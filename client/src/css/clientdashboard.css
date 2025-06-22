@@ -1,0 +1,105 @@
+/* Main Dashboard Wrapper */
+.client-dashboard {
+  min-height: 100vh;
+  background-color: #1F2833;
+  color: #C5C6C7;
+  font-family: Arial, sans-serif;
+  padding-bottom: 30px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Header Section */
+.client-header {
+  background-color: #0B0C10;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #45A29E;
+  flex-wrap: wrap;
+}
+
+.client-header h2 {
+  color: #66FCF1;
+  margin: 0;
+  font-size: 24px;
+}
+
+.client-header p {
+  margin: 0;
+  color: #C5C6C7;
+  font-size: 14px;
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ff1a1a;
+  transform: scale(1.05);
+}
+
+/* Navbar Section */
+.client-navbar {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Nav Link Styling */
+.client-navbar .nav-link {
+  color: #C5C6C7 !important;
+  transition: color 0.3s ease;
+}
+
+.client-navbar .nav-link:hover {
+  color: #66FCF1 !important;
+}
+
+/* Content Box */
+.client-content {
+  background-color: rgba(11, 12, 16, 0.85);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 30px 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(69, 162, 158, 0.2);
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Fade In Effect */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .client-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logout-btn {
+    width: 100%;
+  }
+
+  .client-content {
+    padding: 20px 15px;
+  }
+
+  .client-header h2 {
+    font-size: 20px;
+  }
+}
